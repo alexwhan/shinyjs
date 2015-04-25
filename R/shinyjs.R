@@ -15,3 +15,15 @@
 #' @docType package
 #' @name shinyjs
 NULL
+
+#' TODO
+#' @export
+#' @keywords internal
+js <- new.env()
+
+#
+# .onLoad <- function(libname, pkgname) {
+#   assign("shinyjsExtFuncs", new.env(), envir = parent.env(environment()))
+#   attach(shinyjsExtFuncs)
+#   invisible()
+# }
